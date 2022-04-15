@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dog</title>
+    <style>
+      header {
+        font-size: 27px;
+        font-weight: 600;
+        background-color: lightblue;
+      }
+
+      button {
+        padding: 10px;
+      }
+
+      span {
+        color: blue;
+      }
+
+      .courseNo {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>About</header>
+    <article>
+      <p>Woof woof!</p>
+      <p>Hi,I'm a dog. I love <span>User Interface Design.</span></p>
+    </article>
+
+    <header>Courses</header>
+    <article>
+      <p>Here are some courses I've taken.</p>
+      <table border="1">
+        <tr>
+          <th>Course Number</th>
+          <th>Course Title</th>
+          <th>Semester Taken</th>
+        </tr>
+        <tr>
+          <th colspan="3">For Credit</th>
+        </tr>
+        <tr>
+          <td class="courseNo">6.813</td>
+          <td>User Interface Design</td>
+          <td>Spring 2014</td>
+        </tr>
+        <tr>
+          <td class="courseNo">6.034</td>
+          <td>Artificial Intelligance</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr>
+          <td class="courseNo">6.006</td>
+          <td>Introduction to Algorithm</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr>
+          <th colspan="3">Listener</th>
+        </tr>
+        <tr>
+          <td class="courseNo">6.867</td>
+          <td>Machine Learning</td>
+          <td>Fall 2013</td>
+        </tr>
+        <tr>
+          <td class="courseNo">6.830</td>
+          <td>Database System</td>
+          <td>Fall 2012</td>
+        </tr>
+      </table>
+
+      <header>Interest</header>
+      <article>
+        <p>I'm interested <b>HCI</b>, memmes, and youtube vidoes</p>
+      </article>
+    </article>
+
+    <header>Submit Pet Information</header>
+    <p>
+      Would love to know what kinds of pets you 'own'(you'll neverown me).
+      Submit below!
+    </p>
+    <form>
+      <label for="name">Name:</label>
+      <input id="name" />
+      <br />
+      <label for="phylum">Phylum:</label>
+      <input id="phylum" />
+      <br />
+      <label for="gender">Gender:</label>
+      <input id="gender" />
+      <br />
+      <button value="Submit">Submit</button>
+    </form>
+  </body>
+</html>
