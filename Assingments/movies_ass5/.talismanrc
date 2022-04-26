@@ -1,0 +1,6 @@
+fileignoreconfig:
+  - filename: Assingments/movies/package-lock.json
+    checksum: 8d6e1512951fd2f5353825d1be9cac69bb48c45e86e33bc7455dadde74ffcad8
+  - filename: Assingments/movies/src/components/Movies.jsx
+    checksum: e1e1f686095523b7566b3b6899c306ef70711557c54a7970d1617222e5b5f33a
+version: ""
